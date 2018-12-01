@@ -1,21 +1,22 @@
-﻿Log file open, 12/01/18 14:17:24
+﻿Log file open, 12/01/18 15:49:49
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: LD43
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.298928
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.400195
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
@@ -38,6 +39,7 @@ LogPluginManager: Mounting plugin MobileLauncherProfileWizard
 LogPluginManager: Mounting plugin PluginBrowser
 LogPluginManager: Mounting plugin SpeedTreeImporter
 LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin AppleImageUtils
 LogPluginManager: Mounting plugin AppleVision
@@ -47,7 +49,6 @@ LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin HTML5Networking
 LogPluginManager: Mounting plugin ProxyLODPlugin
 LogPluginManager: Mounting plugin MagicLeap
-LogPluginManager: Mounting plugin MagicLeapEmulator
 LogPluginManager: Mounting plugin MagicLeapMedia
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
@@ -55,6 +56,7 @@ LogPluginManager: Mounting plugin ImgMedia
 LogPluginManager: Mounting plugin LinearTimecode
 LogPluginManager: Mounting plugin MediaCompositing
 LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin WmfMedia
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
@@ -79,21 +81,20 @@ LogPluginManager: Mounting plugin CableComponent
 LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
 LogPluginManager: Mounting plugin GoogleCloudMessaging
-LogPluginManager: Mounting plugin ImmediatePhysics
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
 LogPluginManager: Mounting plugin MobilePatchingUtils
 LogPluginManager: Mounting plugin OculusVR
-LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
-LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.318s to configure plugins.
+LogStreaming: Display: Took  0.078s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -106,547 +107,998 @@ LogInit:      CURL_VERSION_ASYNCHDNS
 LogInit:      CURL_VERSION_LARGEFILE
 LogInit:      CURL_VERSION_IDN
 LogInit:  CurlRequestOptions (configurable via config and command line):
-LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
-LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
-LogInit: Net CL: 4212847
-LogInit: OS: Windows 7 (Service Pack 1), CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz, GPU: Radeon (TM) RX 480 Graphics
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Build: ++UE4+Release-4.21-CL-4541578
+LogInit: Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 2600X Six-Core Processor           , GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Nov  6 2018 02:04:24
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
-LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Branch Name: ++UE4+Release-4.21
 LogInit: Command Line: 
-LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Unreal Engine 4/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
 LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
 LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
-LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
 LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
 LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
 LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
 LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
 LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
 LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
-LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
 LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
-LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
-LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.01-12.17.27:023][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.01-12.17.27:023][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.01-12.17.27:051][  0]LogHAL: Display: Platform has ~ 8 GB [8516788224 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.12.01-12.17.27:051][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.12.01-12.17.27:051][  0]LogInit: Going up to parent DeviceProfile []
-[2018.12.01-12.17.27:062][  0]LogInit: Computer: G-MAN
-[2018.12.01-12.17.27:062][  0]LogInit: User: marius
-[2018.12.01-12.17.27:062][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.01-12.17.27:062][  0]LogInit: High frequency timer resolution =3.026523 MHz
-[2018.12.01-12.17.27:063][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.12.01-12.17.27:063][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.01-12.17.27:063][  0]LogMemory: Process Physical Memory: 99.78 MB used, 99.78 MB peak
-[2018.12.01-12.17.27:063][  0]LogMemory: Process Virtual Memory: 85.20 MB used, 85.20 MB peak
-[2018.12.01-12.17.27:063][  0]LogMemory: Physical Memory: 6380.58 MB used,  1741.66 MB free, 8122.24 MB total
-[2018.12.01-12.17.27:063][  0]LogMemory: Virtual Memory: 474.21 MB used,  1741.66 MB free, 8388608.00 MB total
-[2018.12.01-12.17.28:268][  0]LogInit: Using OS detected language (en-US).
-[2018.12.01-12.17.28:269][  0]LogInit: Using OS detected locale (en-US).
-[2018.12.01-12.17.28:403][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.12.01-12.17.30:571][  0]LogStreaming: Display: Took  2.303s to InitEngineTextLocalization.
-[2018.12.01-12.17.30:571][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.12.01-12.17.30:572][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.12.01-12.17.30:572][  0]LogInit: Setting process to DPI aware
-[2018.12.01-12.17.31:065][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.01-12.17.31:065][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.01-12.17.32:906][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2018.12.01-12.17.32:906][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.01-12.17.32:959][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
-[2018.12.01-12.17.32:959][  0]LogD3D11RHI:       8134/0/3805 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.12.01-12.17.32:959][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.01-12.17.32:965][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.01-12.17.32:965][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2018.12.01-12.17.32:965][  0]LogWindows: EnumDisplayDevices:
-[2018.12.01-12.17.32:966][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
-[2018.12.01-12.17.32:966][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2018.12.01-12.17.32:966][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2018.12.01-12.17.32:967][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2018.12.01-12.17.32:967][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2018.12.01-12.17.32:968][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2018.12.01-12.17.32:968][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
-[2018.12.01-12.17.32:968][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.12.01-12.17.32:968][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.12.01-12.17.32:968][  0]LogWindows:    9. 'LogMeIn Mirror Driver' (P:0 D:0)
-[2018.12.01-12.17.32:968][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2018.12.01-12.17.32:968][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
-[2018.12.01-12.17.32:968][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.11.1 (internal:25.20.14011.1003, unified:25.20.14011.1003)
-[2018.12.01-12.17.32:968][  0]LogD3D11RHI:      Driver Date: 11-7-2018
-[2018.12.01-12.17.32:968][  0]LogRHI: Texture pool is 5693 MB (70% of 8134 MB)
-[2018.12.01-12.17.33:387][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.01-12.17.33:397][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2018.12.01-12.17.33:398][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (D:/UE4 Projects/LD43/Intermediate/Shaders/WorkingDirectory/3264/).
-[2018.12.01-12.17.33:398][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marius/AppData/Local/Temp/UnrealShaderWorkingDir/B6D0F0204C3813F1AF246C9512805023/'.
-[2018.12.01-12.17.34:559][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.01-12.17.34:587][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.01-12.17.34:605][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.01-12.17.34:631][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.01-12.17.34:661][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.01-12.17.34:690][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.01-12.17.34:713][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.01-12.17.34:732][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.01-12.17.34:753][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:865][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.01-12.17.34:877][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.01-12.17.34:970][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.01-12.17.34:970][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.01-12.17.35:010][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.01-12.17.35:010][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.01-12.17.35:031][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.01-12.17.35:056][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.01-12.17.35:080][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.01-12.17.35:116][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.01-12.17.35:256][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.01-12.17.35:256][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.01-12.17.35:884][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.01-12.17.35:884][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.01-12.17.35:891][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.01-12.17.37:840][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.01-12.17.38:330][  0]LogDerivedDataCache: Loaded boot cache 0.49s 71MB C:/Users/marius/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.01-12.17.38:330][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marius/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.12.01-12.17.38:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UE4 Projects/LD43/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.01-12.17.38:330][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.01-12.17.38:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UE4 Projects/LD43/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.01-12.17.38:330][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.01-12.17.38:760][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.01-12.17.38:772][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marius/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.01-12.17.38:772][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.01-12.17.38:772][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.01-12.17.38:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.01-12.17.38:823][  0]LogSlate: Using FreeType 2.6.0
-[2018.12.01-12.17.38:880][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.01-12.17.39:725][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
-[2018.12.01-12.17.40:972][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.01-12.17.44:744][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.01-12.17.44:875][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.01-12.17.44:875][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.12.01-12.17.44:875][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.01-12.17.44:875][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.01-12.17.45:228][  0]LogNetVersion: LD43 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1708076833)
-[2018.12.01-12.17.52:050][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.350557 seconds
-[2018.12.01-12.17.52:137][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.12.01-12.17.52:137][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.12.01-12.17.52:137][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.01-12.18.29:458][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.01-12.18.29:488][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.01-12.18.30:529][  0]SourceControl: Source control is disabled
-[2018.12.01-12.18.30:529][  0]SourceControl: Source control is disabled
-[2018.12.01-12.18.30:638][  0]SourceControl: Source control is disabled
-[2018.12.01-12.18.30:651][  0]SourceControl: Source control is disabled
-[2018.12.01-12.18.31:869][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.01-12.18.32:059][  0]LogOcInput: OculusInput pre-init called
-[2018.12.01-12.18.32:537][  0]LogEngine: Initializing Engine...
-[2018.12.01-12.18.32:595][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2018.12.01-12.18.32:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.01-12.18.32:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.01-12.18.32:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.01-12.18.32:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.01-12.18.32:889][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.12.01-12.18.33:049][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.01-12.18.33:153][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.01-12.18.33:197][  0]LogInit: FAudioDevice initialized.
-[2018.12.01-12.18.33:198][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.12.01-12.18.33:308][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/marius/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.01-12.18.33:313][  0]LogInit: Texture streaming: Enabled
-[2018.12.01-12.18.33:399][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.01-12.18.33:439][  0]LogInit: Transaction tracking system initialized
-[2018.12.01-12.18.33:585][  0]BlueprintLog: New page: Editor Load
-[2018.12.01-12.18.34:224][  0]LocalizationService: Localization service is disabled
-[2018.12.01-12.18.34:509][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2018.12.01-12.18.34:510][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2018.12.01-12.18.34:510][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
-[2018.12.01-12.18.37:213][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/LD43/Content/' took 0.01s
-[2018.12.01-12.18.37:213][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.01-12.18.37:213][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.01-12.18.37:217][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.01-12.18.37:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.01-12.18.37:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.01-12.18.37:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.01-12.18.37:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.01-12.18.40:821][  0]SourceControl: Source control is disabled
-[2018.12.01-12.18.40:821][  0]Cmd: MAP LOAD FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.01-12.18.40:822][  0]LightingResults: New page: Lighting Build
-[2018.12.01-12.18.40:831][  0]MapCheck: New page: Map Check
-[2018.12.01-12.18.40:831][  0]LightingResults: New page: Lighting Build
-[2018.12.01-12.18.44:037][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.12.01-12.18.44:612][  0]LogEditorServer: Finished looking for orphan Actors (0.010 secs)
-[2018.12.01-12.18.44:718][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.01-12.18.44:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.2ms to complete.
-[2018.12.01-12.18.44:780][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.959
-[2018.12.01-12.18.45:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.01-12.18.45:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.01-12.18.45:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.01-12.18.45:239][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.01-12.18.45:257][  0]LogCollectionManager: Loaded 0 collections in 0.001716 seconds
-[2018.12.01-12.18.45:313][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/LD43/Saved/Collections/' took 0.01s
-[2018.12.01-12.18.45:313][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/LD43/Content/Developers/marius/Collections/' took 0.01s
-[2018.12.01-12.18.45:313][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/LD43/Content/Collections/' took 0.01s
-[2018.12.01-12.18.45:313][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.01-12.18.45:324][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2572 classes and 603 folders.
-[2018.12.01-12.18.45:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.01-12.18.46:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.01-12.18.46:242][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.12.01-12.18.46:380][  0]LogSlate: Took 0.010493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.01-12.18.46:400][  0]LogSlate: Took 0.018930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.01-12.18.46:417][  0]LogSlate: Took 0.011601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.01-12.18.46:672][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.12.01-12.18.47:129][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.01-12.18.47:129][  0]LogLoad: (Engine Initialization) Total time: 128.01 seconds
-[2018.12.01-12.18.47:129][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.01-12.18.47:168][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.01-12.18.47:247][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.01-12.18.47:345][  1]LogAssetRegistry: Asset discovery search completed in 67.6388 seconds
-[2018.12.01-12.18.47:354][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.12.01-12.18.47:362][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.015571 seconds (updated 0 objects)
-[2018.12.01-12.19.01:315][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2018.12.01-12.19.02:523][884]Cmd: DELETE
-[2018.12.01-12.19.02:523][884]Cmd: ACTOR DELETE
-[2018.12.01-12.19.02:593][884]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.02:625][884]LogEditorActor: Deleted 1 Actors (0.075 secs)
-[2018.12.01-12.19.03:020][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
-[2018.12.01-12.19.03:146][937]Cmd: DELETE
-[2018.12.01-12.19.03:146][937]Cmd: ACTOR DELETE
-[2018.12.01-12.19.03:149][937]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.03:172][937]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.03:654][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
-[2018.12.01-12.19.03:763][  1]Cmd: DELETE
-[2018.12.01-12.19.03:763][  1]Cmd: ACTOR DELETE
-[2018.12.01-12.19.03:766][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.03:790][  1]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.04:213][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
-[2018.12.01-12.19.04:285][ 53]Cmd: DELETE
-[2018.12.01-12.19.04:285][ 53]Cmd: ACTOR DELETE
-[2018.12.01-12.19.04:288][ 53]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.04:312][ 53]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.04:749][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
-[2018.12.01-12.19.04:842][107]Cmd: DELETE
-[2018.12.01-12.19.04:842][107]Cmd: ACTOR DELETE
-[2018.12.01-12.19.04:845][107]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.04:867][107]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.12.01-12.19.05:258][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
-[2018.12.01-12.19.05:350][158]Cmd: DELETE
-[2018.12.01-12.19.05:350][158]Cmd: ACTOR DELETE
-[2018.12.01-12.19.05:353][158]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.05:376][158]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.05:932][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
-[2018.12.01-12.19.06:030][229]Cmd: DELETE
-[2018.12.01-12.19.06:030][229]Cmd: ACTOR DELETE
-[2018.12.01-12.19.06:033][229]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.06:056][229]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.06:822][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
-[2018.12.01-12.19.06:924][326]Cmd: DELETE
-[2018.12.01-12.19.06:924][326]Cmd: ACTOR DELETE
-[2018.12.01-12.19.06:927][326]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.06:951][326]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.07:424][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
-[2018.12.01-12.19.07:519][387]Cmd: DELETE
-[2018.12.01-12.19.07:519][387]Cmd: ACTOR DELETE
-[2018.12.01-12.19.07:521][387]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.07:545][387]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.07:969][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
-[2018.12.01-12.19.08:406][483]Cmd: DELETE
-[2018.12.01-12.19.08:406][483]Cmd: ACTOR DELETE
-[2018.12.01-12.19.08:409][483]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.08:432][483]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.08:890][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
-[2018.12.01-12.19.09:134][560]Cmd: DELETE
-[2018.12.01-12.19.09:134][560]Cmd: ACTOR DELETE
-[2018.12.01-12.19.09:137][560]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.09:162][560]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2018.12.01-12.19.09:727][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
-[2018.12.01-12.19.10:073][662]Cmd: DELETE
-[2018.12.01-12.19.10:073][662]Cmd: ACTOR DELETE
-[2018.12.01-12.19.10:075][662]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.10:097][662]LogEditorActor: Deleted 1 Actors (0.024 secs)
-[2018.12.01-12.19.11:479][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.12.01-12.19.12:104][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
-[2018.12.01-12.19.12:525][936]Cmd: DELETE
-[2018.12.01-12.19.12:525][936]Cmd: ACTOR DELETE
-[2018.12.01-12.19.12:527][936]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.12:550][936]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.12.01-12.19.12:882][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2018.12.01-12.19.13:085][993]Cmd: DELETE
-[2018.12.01-12.19.13:085][993]Cmd: ACTOR DELETE
-[2018.12.01-12.19.13:087][993]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.13:110][993]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.13:550][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.12.01-12.19.13:755][ 63]Cmd: DELETE
-[2018.12.01-12.19.13:755][ 63]Cmd: ACTOR DELETE
-[2018.12.01-12.19.13:758][ 63]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.13:782][ 63]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.14:138][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
-[2018.12.01-12.19.14:409][131]Cmd: DELETE
-[2018.12.01-12.19.14:409][131]Cmd: ACTOR DELETE
-[2018.12.01-12.19.14:411][131]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.14:434][131]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.12.01-12.19.14:891][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2018.12.01-12.19.15:112][205]Cmd: DELETE
-[2018.12.01-12.19.15:112][205]Cmd: ACTOR DELETE
-[2018.12.01-12.19.15:114][205]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.15:138][205]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.15:569][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
-[2018.12.01-12.19.15:747][271]Cmd: DELETE
-[2018.12.01-12.19.15:747][271]Cmd: ACTOR DELETE
-[2018.12.01-12.19.15:749][271]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.15:773][271]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.16:104][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
-[2018.12.01-12.19.16:224][318]Cmd: DELETE
-[2018.12.01-12.19.16:224][318]Cmd: ACTOR DELETE
-[2018.12.01-12.19.16:227][318]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.16:251][318]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2018.12.01-12.19.17:980][518]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.01-12.19.17:983][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.19.18:002][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.01-12.19.18:380][518]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap4923B61E4BC8641AF07E84B1B91FF07E.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.12.01-12.19.18:401][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
-[2018.12.01-12.19.18:580][518]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap_BuiltData38FF0B1F48B8181D132C6F9B05DD4B4F.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
-[2018.12.01-12.19.23:209][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.12.01-12.19.23:602][ 80]Cmd: DELETE
-[2018.12.01-12.19.23:602][ 80]Cmd: ACTOR DELETE
-[2018.12.01-12.19.23:604][ 80]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.23:628][ 80]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.19.23:944][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2018.12.01-12.19.24:023][119]Cmd: DELETE
-[2018.12.01-12.19.24:023][119]Cmd: ACTOR DELETE
-[2018.12.01-12.19.24:025][119]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.24:048][119]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.12.01-12.19.25:098][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.12.01-12.19.25:193][249]Cmd: DELETE
-[2018.12.01-12.19.25:193][249]Cmd: ACTOR DELETE
-[2018.12.01-12.19.25:195][249]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.25:218][249]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.12.01-12.19.26:217][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
-[2018.12.01-12.19.26:289][370]Cmd: DELETE
-[2018.12.01-12.19.26:289][370]Cmd: ACTOR DELETE
-[2018.12.01-12.19.26:291][370]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.12.01-12.19.26:315][370]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.12.01-12.20.55:378][676]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.20.57:999][969]MapCheck: New page: Map Check
-[2018.12.01-12.20.58:231][969]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.20.58:313][969]LightingResults: New page: Lighting Build - Dec 1, 2018, 4:20:58 PM
-[2018.12.01-12.20.58:722][969]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.12.01-12.20.58:973][969]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.12.01-12.20.59:156][969]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.12.01-12.21.01:562][969]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2018.12.01-12.21.01:686][969]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.49:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2018.12.01-13.49.49:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.49:971][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.49:993][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:993][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2018.12.01-13.49.49:993][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2018.12.01-13.49.49:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2018.12.01-13.49.49:995][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2018.12.01-13.49.49:995][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-13.49.49:995][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.01-13.49.50:019][  0]LogHAL: Display: Platform has ~ 16 GB [17125740544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2018.12.01-13.49.50:020][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.01-13.49.50:020][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2018.12.01-13.49.50:020][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2018.12.01-13.49.50:021][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2018.12.01-13.49.50:021][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2018.12.01-13.49.50:021][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.01-13.49.50:021][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2018.12.01-13.49.50:021][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2018.12.01-13.49.50:021][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2018.12.01-13.49.50:021][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2018.12.01-13.49.50:021][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.01-13.49.50:021][  0]LogInit: Computer: DESKTOP-HO83NQ8
+[2018.12.01-13.49.50:021][  0]LogInit: User: Daniel
+[2018.12.01-13.49.50:021][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.12.01-13.49.50:021][  0]LogInit: High frequency timer resolution =3.515621 MHz
+[2018.12.01-13.49.50:021][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.01-13.49.50:021][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.01-13.49.50:021][  0]LogMemory: Process Physical Memory: 103.68 MB used, 103.68 MB peak
+[2018.12.01-13.49.50:021][  0]LogMemory: Process Virtual Memory: 86.75 MB used, 86.75 MB peak
+[2018.12.01-13.49.50:021][  0]LogMemory: Physical Memory: 6980.10 MB used,  9352.28 MB free, 16332.38 MB total
+[2018.12.01-13.49.50:021][  0]LogMemory: Virtual Memory: 4660.06 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2018.12.01-13.49.50:039][  0]LogInit: Using OS detected language (en-US).
+[2018.12.01-13.49.50:039][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.01-13.49.50:039][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.01-13.49.50:388][  0]LogStreaming: Display: Took  0.350s to InitEngineTextLocalization.
+[2018.12.01-13.49.50:388][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.01-13.49.50:421][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.01-13.49.50:421][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.01-13.49.50:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-13.49.50:599][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.01-13.49.50:678][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.12.01-13.49.50:678][  0]LogD3D11RHI:       8080/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.01-13.49.50:681][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.01-13.49.50:681][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.01-13.49.50:681][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.01-13.49.50:689][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.01-13.49.50:689][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.01-13.49.50:689][  0]LogWindows: EnumDisplayDevices:
+[2018.12.01-13.49.50:689][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.12.01-13.49.50:689][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.12.01-13.49.50:690][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.12.01-13.49.50:690][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.12.01-13.49.50:690][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.01-13.49.50:690][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.12.01-13.49.50:690][  0]LogD3D11RHI:   Driver Version: 417.01 (internal:25.21.14.1701, unified:417.01)
+[2018.12.01-13.49.50:690][  0]LogD3D11RHI:      Driver Date: 11-15-2018
+[2018.12.01-13.49.50:690][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.12.01-13.49.50:749][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.01-13.49.50:779][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.01-13.49.51:110][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.01-13.49.51:122][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.01-13.49.51:135][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.01-13.49.51:147][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.01-13.49.51:159][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.01-13.49.51:172][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.01-13.49.51:184][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.01-13.49.51:197][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.01-13.49.51:202][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:279][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-13.49.51:280][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.01-13.49.51:340][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-13.49.51:340][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-13.49.51:364][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-13.49.51:364][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-13.49.51:377][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.01-13.49.51:388][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.01-13.49.51:400][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.01-13.49.51:414][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.01-13.49.51:477][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.01-13.49.51:477][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.01-13.49.51:477][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.01-13.49.51:521][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (../../../../../UE4_Projects/LD2018/Intermediate/Shaders/WorkingDirectory/1548/).
+[2018.12.01-13.49.51:522][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daniel/AppData/Local/Temp/UnrealShaderWorkingDir/38CC395241D105A67FFA108BDC1CF26B/'.
+[2018.12.01-13.49.51:524][  0]LogXGEController: Cleaning working directory: C:/Users/Daniel/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.01-13.49.51:524][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.01-13.49.51:524][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.01-13.49.51:524][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.01-13.49.52:031][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.01-13.49.52:082][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2018.12.01-13.49.52:082][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Daniel/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2018.12.01-13.49.52:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4_Projects/LD2018/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.01-13.49.52:082][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.01-13.49.52:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE4_Projects/LD2018/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.01-13.49.52:082][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.01-13.49.52:095][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.01-13.49.52:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.01-13.49.52:095][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2018.12.01-13.49.52:107][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daniel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.01-13.49.52:107][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.01-13.49.52:107][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.01-13.49.52:128][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.01-13.49.52:129][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.01-13.49.52:130][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.01-13.49.52:209][  0]LogAssetRegistry: FAssetRegistry took 0.0340 seconds to start up
+[2018.12.01-13.49.52:533][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-13.49.52:590][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.01-13.49.52:592][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.01-13.49.52:592][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.01-13.49.52:592][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.01-13.49.52:592][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.01-13.49.52:677][  0]LogNetVersion: LD43 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1178865739)
+[2018.12.01-13.49.53:277][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.128945 seconds
+[2018.12.01-13.49.53:284][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2018.12.01-13.49.53:284][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2018.12.01-13.49.53:284][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.01-13.49.54:074][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.01-13.49.54:088][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.01-13.49.54:695][  0]SourceControl: Source control is disabled
+[2018.12.01-13.49.55:243][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.01-13.49.55:322][  0]LogOcInput: OculusInput pre-init called
+[2018.12.01-13.49.55:453][  0]LogEngine: Initializing Engine...
+[2018.12.01-13.49.55:454][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-13.49.55:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-13.49.55:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-13.49.55:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-13.49.55:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-13.49.55:684][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.01-13.49.55:695][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.01-13.49.55:774][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.49.55:805][  0]LogInit: FAudioDevice initialized.
+[2018.12.01-13.49.55:805][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.01-13.49.55:864][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2018.12.01-13.49.55:873][  0]LogInit: Texture streaming: Enabled
+[2018.12.01-13.49.55:886][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.01-13.49.55:925][  0]LogInit: Transaction tracking system initialized
+[2018.12.01-13.49.55:943][  0]BlueprintLog: New page: Editor Load
+[2018.12.01-13.49.56:071][  0]LocalizationService: Localization service is disabled
+[2018.12.01-13.49.57:620][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Content/' took 0.02s
+[2018.12.01-13.49.57:620][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.01-13.49.57:620][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.01-13.49.57:620][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.01-13.49.57:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-13.49.57:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-13.49.57:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-13.49.57:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-13.50.00:603][  0]Cmd: MAP LOAD FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.01-13.50.00:610][  0]LightingResults: New page: Lighting Build
+[2018.12.01-13.50.00:613][  0]MapCheck: New page: Map Check
+[2018.12.01-13.50.00:613][  0]LightingResults: New page: Lighting Build
+[2018.12.01-13.50.00:970][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.50.01:114][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.01-13.50.01:145][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.01-13.50.01:146][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2018.12.01-13.50.01:146][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.542
+[2018.12.01-13.50.01:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.01:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.01:350][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.01:359][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.01:422][  0]LogCollectionManager: Loaded 0 collections in 0.000885 seconds
+[2018.12.01-13.50.01:462][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Saved/Collections/' took 0.01s
+[2018.12.01-13.50.01:462][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Content/Developers/Daniel/Collections/' took 0.01s
+[2018.12.01-13.50.01:462][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Content/Collections/' took 0.01s
+[2018.12.01-13.50.01:462][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.01-13.50.01:474][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2651 classes and 620 folders.
+[2018.12.01-13.50.01:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.01-13.50.01:507][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:524][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:675][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:696][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:711][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:729][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:848][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.01:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:016][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:124][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:162][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:267][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.02:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.01-13.50.03:541][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.01-13.50.03:561][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.01-13.50.03:596][  0]LogSlate: Took 0.015118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.01-13.50.03:635][  0]LogSlate: Took 0.037761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.01-13.50.03:662][  0]LogSlate: Took 0.021437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.01-13.50.03:760][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2018.12.01-13.50.04:081][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.01-13.50.04:081][  0]LogLoad: (Engine Initialization) Total time: 15.75 seconds
+[2018.12.01-13.50.04:081][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.01-13.50.04:126][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.50.04:305][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.01-13.50.04:398][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.01-13.50.07:472][344]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.50.07:488][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.07:488][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.50.07:488][344]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:50:07 PM)
+[2018.12.01-13.50.07:501][344]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.50.07:520][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018572s)
+[2018.12.01-13.50.07:520][344]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.50.07:520][344]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2018.12.01-13.50.07:520][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019495s)
+[2018.12.01-13.50.07:559][344]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.50.07:585][344]LogInit: FAudioDevice initialized.
+[2018.12.01-13.50.07:629][344]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.50.07:630][344]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.50.07
+[2018.12.01-13.50.07:631][344]LogWorld: Bringing up level for play took: 0.000768
+[2018.12.01-13.50.07:795][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2018.12.01-13.50.07:832][344]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.157
+[2018.12.01-13.50.07:832][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.10:704][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.10:704][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.10:735][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.50.10:735][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.10:772][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.10:803][686]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.12.01-13.50.11:799][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.01-13.50.13:384][965]LogAssetRegistry: Asset discovery search completed in 21.1982 seconds
+[2018.12.01-13.50.13:386][965]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.01-13.50.13:386][965]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2018.12.01-13.50.14:798][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.50.14:915][139]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.50.14:929][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.14:929][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.50.14:929][139]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:50:14 PM)
+[2018.12.01-13.50.14:929][139]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.50.14:938][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009028s)
+[2018.12.01-13.50.14:939][139]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.50.14:939][139]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.12.01-13.50.14:939][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009740s)
+[2018.12.01-13.50.14:978][139]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.50.15:006][139]LogInit: FAudioDevice initialized.
+[2018.12.01-13.50.15:046][139]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.50.15:048][139]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.50.15
+[2018.12.01-13.50.15:048][139]LogWorld: Bringing up level for play took: 0.001133
+[2018.12.01-13.50.15:061][139]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.072
+[2018.12.01-13.50.15:061][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.15:602][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.15:603][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.15:632][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.50.15:633][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.50.15:665][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.50.15:711][204]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.12.01-13.50.22:640][714]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LD43
+[2018.12.01-13.50.22:640][714]LogTemp: CWD: D:\Unreal Engine 4\UE_4.21\Engine\Binaries\DotNET\IOS
+[2018.12.01-13.50.22:640][714]LogTemp: Initial Dir: D:\Unreal Engine 4\UE_4.21
+[2018.12.01-13.50.22:640][714]LogTemp: Env CWD: D:\Unreal Engine 4\UE_4.21\Engine\Binaries\DotNET\IOS
+[2018.12.01-13.50.22:640][714]LogTemp: BranchPath = DESKTOP-HO83NQ8/D/Unreal Engine 4/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-HO83NQ8/D/Unreal Engine 4/UE_4.21/Engine/Binaries
+[2018.12.01-13.50.22:640][714]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daniel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.01-13.50.22:640][714]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.01-13.50.29:660][477]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-13.51.16:151][598]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.01-13.51.16:154][598]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.01-13.51.25:282][682]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode
+[2018.12.01-13.51.25:728][682]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2018.12.01-13.51.30:662][129]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.01-13.52.07:433][ 42]LogSlate: Window 'TopDownGameMode' being destroyed
+[2018.12.01-13.52.07:436][ 42]LogSlate: Window 'TopDownGameMode' being destroyed
+[2018.12.01-13.52.39:812][205]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.52.41:092][356]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.52.42:962][578]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.52.43:979][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.52.44:103][712]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.52.44:124][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.52.44:124][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.52.44:124][712]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:52:44 PM)
+[2018.12.01-13.52.44:125][712]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.52.44:134][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009378s)
+[2018.12.01-13.52.44:134][712]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.52.44:135][712]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2018.12.01-13.52.44:135][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009997s)
+[2018.12.01-13.52.44:179][712]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.52.44:207][712]LogInit: FAudioDevice initialized.
+[2018.12.01-13.52.44:236][712]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.52.44:237][712]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.52.44
+[2018.12.01-13.52.44:237][712]LogWorld: Bringing up level for play took: 0.000843
+[2018.12.01-13.52.44:251][712]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.262
+[2018.12.01-13.52.44:251][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.52.47:605][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.52.47:605][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.52.47:640][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.52.47:640][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.52.47:678][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.52.47:710][115]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.01-13.52.56:353][126]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.01-13.52.57:760][291]Cmd: TRANSACTION UNDO
+[2018.12.01-13.52.57:760][291]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.01-13.52.58:349][355]Cmd: TRANSACTION UNDO
+[2018.12.01-13.52.58:350][355]LogEditorTransaction: Undo Move Actors
+[2018.12.01-13.52.58:686][391]Cmd: TRANSACTION UNDO
+[2018.12.01-13.52.58:686][391]LogEditorTransaction: Undo Move Actors
+[2018.12.01-13.52.59:162][447]Cmd: TRANSACTION UNDO
+[2018.12.01-13.52.59:162][447]LogEditorTransaction: Undo Move Actors
+[2018.12.01-13.53.06:902][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.01-13.53.07:788][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.01-13.53.10:737][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.53.15:705][406]LogEditorViewport: Clicking on Actor (LMB): CameraActor (TopDownCamera)
+[2018.12.01-13.53.16:455][450]Cmd: DELETE
+[2018.12.01-13.53.16:455][450]Cmd: ACTOR DELETE
+[2018.12.01-13.53.16:500][450]LogEditorActor: Deleted Actor: CameraActor
+[2018.12.01-13.53.16:564][450]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2018.12.01-13.53.18:880][727]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.01-13.53.22:273][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.53.31:450][146]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.01-13.53.45:278][776]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.01-13.53.45:563][800]Cmd: DELETE
+[2018.12.01-13.53.45:563][800]Cmd: ACTOR DELETE
+[2018.12.01-13.53.45:565][800]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.12.01-13.53.45:631][800]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2018.12.01-13.53.47:189][987]Cmd: TRANSACTION UNDO
+[2018.12.01-13.53.47:190][987]LogEditorTransaction: Undo Delete Actors
+[2018.12.01-13.53.52:597][568]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.01-13.53.53:730][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.54.01:373][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.01-13.54.02:034][568]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownExampleMap100CCF664E09FD9309D7C384FAEDA06C.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.12.01-13.54.02:147][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2018.12.01-13.54.02:217][568]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownExampleMap_BuiltData5C990CF345C59E8778CD19A90C1FB4A3.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2018.12.01-13.54.07:359][168]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.54.09:221][381]LogBlueprint: Warning: [Compiler BP_Sky_Sphere] Found a component variable with an invalid name (StaticMeshComponent_0) - changed to StaticMesh.
+[2018.12.01-13.54.09:257][381]LogBlueprint: Warning: [Compiler BP_Sky_Sphere] [0260.93] Compile of BP_Sky_Sphere successful, but with 1 Warning(s) [in 49 ms] (/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere)
+[2018.12.01-13.54.09:610][385]SourceControl: fatal: D:/Unreal Engine 4/UE_4.21/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'D:/Unreal Engine 4/UE_4.21/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2018.12.01-13.54.12:450][722]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.12.01-13.54.14:825][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.54.14:934][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.54.14:950][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.54.14:951][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.54.14:951][ 17]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:54:14 PM)
+[2018.12.01-13.54.14:951][ 17]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.54.14:960][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009223s)
+[2018.12.01-13.54.14:961][ 17]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.54.14:961][ 17]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2018.12.01-13.54.14:961][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010020s)
+[2018.12.01-13.54.15:002][ 17]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.54.15:029][ 17]LogInit: FAudioDevice initialized.
+[2018.12.01-13.54.15:064][ 17]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.54.15:065][ 17]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.54.15
+[2018.12.01-13.54.15:066][ 17]LogWorld: Bringing up level for play took: 0.000743
+[2018.12.01-13.54.15:078][ 17]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.089
+[2018.12.01-13.54.15:078][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.54.17:833][346]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.54.17:833][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.54.17:865][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.54.17:866][346]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.54.17:899][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.54.17:957][348]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.01-13.54.21:359][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.01-13.54.22:000][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.01-13.54.22:521][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.01-13.54.25:757][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.54.41:137][  5]Cmd: TRANSACTION UNDO
+[2018.12.01-13.54.41:137][  5]LogEditorTransaction: Undo Move Components
+[2018.12.01-13.54.41:613][ 51]Cmd: TRANSACTION UNDO
+[2018.12.01-13.54.41:613][ 51]LogEditorTransaction: Undo Move Components
+[2018.12.01-13.54.42:082][105]Cmd: TRANSACTION UNDO
+[2018.12.01-13.54.42:082][105]LogEditorTransaction: Undo Move Components
+[2018.12.01-13.54.46:013][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.54.49:857][ 22]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.54.51:100][168]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.54.52:079][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.54.55:659][704]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.54.56:851][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.54.56:959][857]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.54.56:975][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.54.56:975][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.54.56:975][857]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:54:56 PM)
+[2018.12.01-13.54.56:975][857]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.54.56:985][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010471s)
+[2018.12.01-13.54.56:986][857]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.54.56:986][857]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.12.01-13.54.56:986][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011243s)
+[2018.12.01-13.54.57:105][857]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.54.57:136][857]LogInit: FAudioDevice initialized.
+[2018.12.01-13.54.57:168][857]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.54.57:170][857]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.54.57
+[2018.12.01-13.54.57:170][857]LogWorld: Bringing up level for play took: 0.001034
+[2018.12.01-13.54.57:183][857]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.194
+[2018.12.01-13.54.57:183][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.00:380][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.00:380][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.55.00:414][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.55.00:415][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.00:446][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.55.00:482][241]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.01-13.55.04:757][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.55.04:857][760]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.55.04:873][760]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.04:873][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.55.04:873][760]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:55:04 PM)
+[2018.12.01-13.55.04:874][760]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.55.04:883][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009324s)
+[2018.12.01-13.55.04:883][760]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.55.04:883][760]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2018.12.01-13.55.04:884][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009979s)
+[2018.12.01-13.55.04:923][760]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.55.04:951][760]LogInit: FAudioDevice initialized.
+[2018.12.01-13.55.04:982][760]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.55.04:983][760]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.55.04
+[2018.12.01-13.55.04:984][760]LogWorld: Bringing up level for play took: 0.000754
+[2018.12.01-13.55.04:997][760]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.008
+[2018.12.01-13.55.04:997][760]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.05:904][867]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.05:904][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.55.05:941][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.55.05:941][867]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.55.05:973][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.55.06:010][870]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.12.01-13.55.16:736][147]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.12.01-13.55.17:403][220]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.01-13.55.19:543][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.55.28:982][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.55.34:422][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.55.35:497][327]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/CameraPawn.CameraPawn
+[2018.12.01-13.55.41:263][901]LogSlate: Window 'CameraPawn' being destroyed
+[2018.12.01-13.55.41:265][901]LogSlate: Window 'CameraPawn' being destroyed
+[2018.12.01-13.55.44:163][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.55.47:074][565]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/CameraPawn.CameraPawn
+[2018.12.01-13.55.50:451][878]LogSlate: Window 'CameraPawn' being destroyed
+[2018.12.01-13.55.50:537][878]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/CameraPawn.CameraPawn
+[2018.12.01-13.55.50:879][878]LogSlate: Took 0.013894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.01-13.56.01:690][793]LogRenderer: Reallocating scene render targets to support 1616x1260 Format 10 NumSamples 1 (Frame:1).
+[2018.12.01-13.56.08:419][313]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.56.08:484][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CameraPawn" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset" SILENT=true
+[2018.12.01-13.56.08:522][313]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/CameraPawn6CCB85DD42E90EE3CEA5038D731B478C.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset'
+[2018.12.01-13.56.16:302][ 57]BlueprintLog: New page: Compile CameraPawn
+[2018.12.01-13.56.26:381][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.56.29:559][440]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-13.56.33:149][440]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.01-13.56.38:621][ 58]LogSlate: Window 'Select Path' being destroyed
+[2018.12.01-13.56.42:251][482]LogSlate: Window 'Select Path' being destroyed
+[2018.12.01-13.56.49:183][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.01-13.56.49:427][298]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownExampleMap1138A32D44BD35FFC28A47913E606958.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.12.01-13.56.49:554][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2018.12.01-13.56.49:610][298]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownExampleMap_BuiltData9E8AF2814E46697F7E5555843BCBF682.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2018.12.01-13.56.55:056][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.56.55:164][948]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.56.55:185][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.56.55:193][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.56.55:193][948]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:56:55 PM)
+[2018.12.01-13.56.55:193][948]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.56.55:204][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010136s)
+[2018.12.01-13.56.55:204][948]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.56.55:204][948]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2018.12.01-13.56.55:204][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010823s)
+[2018.12.01-13.56.55:320][948]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.56.55:344][948]LogInit: FAudioDevice initialized.
+[2018.12.01-13.56.55:375][948]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.56.55:391][948]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.56.55
+[2018.12.01-13.56.55:404][948]LogWorld: Bringing up level for play took: 0.028273
+[2018.12.01-13.56.55:419][948]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.57
+[2018.12.01-13.56.55:419][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.56.56:806][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.56.56:806][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.56.56:858][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.56.56:858][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.56.56:897][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.56.56:913][112]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.12.01-13.57.02:374][755]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.01-13.57.06:726][268]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.01-13.57.08:673][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.57.10:876][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.01-13.57.11:102][745]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownExampleMapCF0FFCB74BD8E4C1D16E838FF3445DBB.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.12.01-13.57.11:204][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2018.12.01-13.57.11:260][745]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownExampleMap_BuiltDataCC581D23448C25A4E193C691227B4ADF.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2018.12.01-13.57.11:927][823]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.57.11:946][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.57.11:946][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.57.11:946][823]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:57:11 PM)
+[2018.12.01-13.57.11:946][823]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.57.11:959][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012462s)
+[2018.12.01-13.57.11:959][823]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.57.11:959][823]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2018.12.01-13.57.11:959][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.013321s)
+[2018.12.01-13.57.12:080][823]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.57.12:113][823]LogInit: FAudioDevice initialized.
+[2018.12.01-13.57.12:143][823]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.57.12:145][823]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.57.12
+[2018.12.01-13.57.12:145][823]LogWorld: Bringing up level for play took: 0.000895
+[2018.12.01-13.57.12:158][823]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.17
+[2018.12.01-13.57.12:159][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.57.15:432][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.57.15:433][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.57.15:467][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.57.15:468][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.57.15:502][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.57.15:537][217]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.12.01-13.57.18:854][600]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.01-13.57.22:953][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.57.29:546][867]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.57.33:515][341]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.01-13.57.36:599][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.57.39:525][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.57.47:245][964]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.57.59:360][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.57.59:414][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.57.59:418][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CameraPawn" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset" SILENT=true
+[2018.12.01-13.57.59:430][ 48]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/CameraPawnBDFFD1E94F1291E3CF1D2D815B28693B.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset'
+[2018.12.01-13.58.00:111][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.58.00:201][113]BlueprintLog: New page: Compile CameraPawn
+[2018.12.01-13.58.03:526][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.58.03:626][436]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.58.03:646][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.03:646][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.58.03:646][436]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:58:03 PM)
+[2018.12.01-13.58.03:647][436]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.58.03:657][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010349s)
+[2018.12.01-13.58.03:657][436]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.58.03:658][436]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2018.12.01-13.58.03:658][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011077s)
+[2018.12.01-13.58.03:720][436]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.58.03:748][436]LogInit: FAudioDevice initialized.
+[2018.12.01-13.58.03:782][436]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.58.03:783][436]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.58.03
+[2018.12.01-13.58.03:783][436]LogWorld: Bringing up level for play took: 0.000572
+[2018.12.01-13.58.03:796][436]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.193
+[2018.12.01-13.58.03:796][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.05:164][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.05:165][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.58.05:197][598]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.58.05:197][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.05:230][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.58.05:267][602]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.12.01-13.58.12:743][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.58.12:797][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-13.58.12:803][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CameraPawn" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset" SILENT=true
+[2018.12.01-13.58.12:815][351]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/CameraPawn3CA645174AE2F658DE187DA8B766031F.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset'
+[2018.12.01-13.58.13:472][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.58.13:554][424]BlueprintLog: New page: Compile CameraPawn
+[2018.12.01-13.58.15:769][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.58.15:877][652]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-13.58.15:895][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.15:895][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-13.58.15:895][652]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 5:58:15 PM)
+[2018.12.01-13.58.15:895][652]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-13.58.15:907][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011383s)
+[2018.12.01-13.58.15:907][652]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-13.58.15:908][652]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.12.01-13.58.15:908][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012154s)
+[2018.12.01-13.58.15:951][652]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-13.58.15:977][652]LogInit: FAudioDevice initialized.
+[2018.12.01-13.58.16:012][652]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-13.58.16:013][652]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-15.58.16
+[2018.12.01-13.58.16:014][652]LogWorld: Bringing up level for play took: 0.000740
+[2018.12.01-13.58.16:026][652]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.037
+[2018.12.01-13.58.16:026][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.21:269][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.21:269][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.58.21:308][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-13.58.21:309][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-13.58.21:340][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-13.58.21:373][282]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.12.01-13.58.26:314][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-13.58.26:861][894]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.12.01-13.59.48:020][540]LogSlate: Took 0.014526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.01-14.00.02:243][ 54]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.12.01-14.00.02:268][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-14.00.08:766][670]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.01-14.00.08:770][670]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.01-14.00.12:827][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.00.39:960][600]LogSlate: Window 'Delete Variable' being destroyed
+[2018.12.01-14.00.41:289][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.01.14:414][876]BlueprintLog: New page: Compile CameraPawn
+[2018.12.01-14.01.17:172][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.01.17:272][135]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-14.01.17:298][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.01.17:298][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-14.01.17:298][135]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 6:01:17 PM)
+[2018.12.01-14.01.17:298][135]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-14.01.17:308][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009562s)
+[2018.12.01-14.01.17:308][135]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-14.01.17:308][135]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.12.01-14.01.17:308][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010309s)
+[2018.12.01-14.01.17:355][135]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-14.01.17:381][135]LogInit: FAudioDevice initialized.
+[2018.12.01-14.01.17:412][135]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-14.01.17:413][135]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-16.01.17
+[2018.12.01-14.01.17:413][135]LogWorld: Bringing up level for play took: 0.000581
+[2018.12.01-14.01.17:426][135]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.563
+[2018.12.01-14.01.17:426][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.01.22:154][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.01.22:154][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-14.01.22:190][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-14.01.22:191][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.01.22:225][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-14.01.22:261][703]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.12.01-14.01.27:112][221]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-14.01.40:322][411]LogEditorTransaction: Undo Set Scale
+[2018.12.01-14.01.40:324][411]LogOutputDevice: Warning: 
 
-Server stack trace: 
-   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+Script Stack (0 frames):
 
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) in D:\Build\++UE4\Sync\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs:line 2811
-[2018.12.01-12.21.07:716][969]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.12.01-12.21.07:717][969]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3264
-[2018.12.01-12.21.09:429][969]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.12.01-12.21.09:429][969]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.12.01-12.21.09:429][969]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.12.01-12.21.09:429][969]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.12.01-12.21.09:429][969]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.12.01-12.21.10:127][969]LogEditorBuildUtils: Build time 0:11
-[2018.12.01-12.21.10:159][969]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
-[2018.12.01-12.21.10:308][969]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.12.01-12.21.10:308][969]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
-[2018.12.01-12.21.12:032][970]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.12.01-12.21.17:696][984]Job is a success!
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport:      BrickData 175x5x5 = 0.2Mb
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport:      Bricks at Level
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport:          0: 2.9% covering 100.0% of volume
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport:          1: 11.4% covering 6.3% of volume
-[2018.12.01-12.21.18:486][985]LogVolumetricLightmapImport:          2: 85.7% covering 0.7% of volume
-[2018.12.01-12.21.19:097][985]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.12.01-12.21.19:097][985]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2018.12.01-12.21.19:097][985]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.12.01-12.21.19:097][985]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2018.12.01-12.21.19:097][985]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.12.01-12.21.19:097][985]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.12.01-12.21.19:204][985]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.12.01-12.21.19:205][985]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
-[2018.12.01-12.21.19:675][985]Lightmass on G-MAN: 4.68 sec total, 121 ms importing, 20 ms setup, 470 ms photons, 3.39 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 13.5 sec total, 1.62 sec processing.
-[2018.12.01-12.21.19:727][985]LogStaticLightingSystem: Illumination: 21.1 sec (592 ms encoding lightmaps, 105 ms encoding shadowmaps)
-[2018.12.01-12.21.19:727][985]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.12.01-12.21.19:727][985]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.12.01-12.21.20:386][985]DumpUnbuiltLightIteractions
-[2018.12.01-12.21.20:386][985]Lights with unbuilt interactions: 0
-[2018.12.01-12.21.20:386][985]
-[2018.12.01-12.21.20:386][985]Primitives with unbuilt interactions: 0
-[2018.12.01-12.21.20:453][986]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.12.01-12.21.20:453][986]MapCheck: New page: TopDownExampleMap - Dec 1, 2018, 4:21:20 PM
-[2018.12.01-12.21.20:712][986]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 258.958ms to complete.
-[2018.12.01-12.21.27:906][691]LogSourceControl: Warning: 'D:/UE4 Projects/LD43/' is not part of a Git repository
-[2018.12.01-12.21.52:684][603]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.21.52:684][603]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.21.52:684][603]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
-[2018.12.01-12.22.03:464][867]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.22.03:464][867]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.22.03:465][867]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
-[2018.12.01-12.22.14:205][131]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.22.14:205][131]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.22.14:205][131]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
-[2018.12.01-12.22.19:264][718]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.22.19:264][718]SourceControl: Error: fatal: Not a git repository (or any of the parent directories): .git
-[2018.12.01-12.22.19:264][718]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
-[2018.12.01-12.22.26:787][542]SourceControl: Error: warning: LF will be replaced by CRLF in .gitignore.
-[2018.12.01-12.22.26:787][542]SourceControl: Error: The file will have its original line endings in your working directory.
-[2018.12.01-12.22.27:019][561]LogSourceControl: commit successful: [master (root-commit) e877cb5] Initial commit
-[2018.12.01-12.22.27:036][562]SourceControl: [master (root-commit) e877cb5] Initial commit
-[2018.12.01-12.22.27:036][562]SourceControl:  46 files changed, 157 insertions(+)
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 .gitignore
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Config/DefaultEditor.ini
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Config/DefaultEditorPerProjectUserSettings.ini
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Config/DefaultEngine.ini
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Config/DefaultGame.ini
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Config/DefaultInput.ini
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Geometry/Meshes/1M_Cube.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Geometry/Meshes/CubeMaterial.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Geometry/Meshes/TemplateFloor.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPersonIdle.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPersonJump_End.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPersonJump_Start.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPersonRun.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPersonWalk.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Animations/ThirdPerson_Jump.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
-[2018.12.01-12.22.27:036][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Blueprints/M_Cursor_Decal.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Blueprints/TopDownCharacter.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Blueprints/TopDownController.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Blueprints/TopDownGameMode.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Character/TopDownIdleRun.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Character/TopDownSkeletalMesh.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Maps/TopDownExampleMap.umap
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 Content/TopDownBP/TopDownOverview.uasset
-[2018.12.01-12.22.27:037][562]SourceControl:  create mode 100644 LD43.uproject
-[2018.12.01-12.22.32:241][142]LogSlate: Window 'Source Control Login' being destroyed
-[2018.12.01-12.22.36:588][629]SourceControl: fatal: E:/Epic Games/UE_4.20/Engine/Content: 'E:/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2018.12.01-12.22.36:869][629]EditorErrors: Warning: No assets to check in!
-[2018.12.01-12.22.43:247][380]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.12.01-12.22.56:431][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.25.08:579][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.25.10:252][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.25.17:488][912]SourceControl: Source control is disabled
-[2018.12.01-12.25.17:488][912]LogSlate: Window 'Source Control Login' being destroyed
-[2018.12.01-12.25.18:630][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.25.19:483][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.04:994][156]LogSlate: Window 'Source Control Login' being destroyed
-[2018.12.01-12.26.05:939][247]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.07:678][441]SourceControl: fatal: E:/Epic Games/UE_4.20/Engine/Content: 'E:/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2018.12.01-12.26.07:815][441]EditorErrors: Warning: No assets to check in!
-[2018.12.01-12.26.09:595][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.10:977][796]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.11:034][796]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.11:120][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.01-12.26.11:288][796]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap108AFEB44848FDB71D6F9CBE1E9594B6.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.12.01-12.26.11:296][796]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.243
-[2018.12.01-12.26.11:300][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
-[2018.12.01-12.26.11:350][796]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap_BuiltData4CA43E454956D4A968F9C1BD3114B1F6.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
-[2018.12.01-12.26.13:708][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.13:758][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.13:771][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.01-12.26.13:903][ 74]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap7A6EAB174F577C4F779E6E810B6D0539.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.12.01-12.26.13:967][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
-[2018.12.01-12.26.14:022][ 74]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap_BuiltData571881D548BB766EB2468E8A67A79B3A.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
-[2018.12.01-12.26.15:155][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.15:208][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.15:221][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.01-12.26.15:342][206]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap9DDE575246E6078AD425EAB229C2EEC5.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.12.01-12.26.15:396][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
-[2018.12.01-12.26.15:446][206]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap_BuiltDataC5DD4B584CB1619F5DF2748D2D941A3C.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
-[2018.12.01-12.26.15:942][256]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.26.15:954][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.01-12.26.16:075][256]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap16679C624CBBA3BCF79A53AD13D778A3.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.12.01-12.26.16:135][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
-[2018.12.01-12.26.16:181][256]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap_BuiltData279DCADC48259F2F8F9D5C8433EEEC23.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
-[2018.12.01-12.28.31:851][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.28.33:691][333]SourceControl: fatal: E:/Epic Games/UE_4.20/Engine/Content: 'E:/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2018.12.01-12.28.33:823][333]EditorErrors: Warning: No assets to check in!
-[2018.12.01-12.28.36:071][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.01-12.28.37:998][759]LogSlate: Window 'Message Log' being destroyed
-[2018.12.01-12.28.38:002][759]LogSlate: Window 'Message Log' being destroyed
-[2018.12.01-12.28.38:589][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.01-12.28.44:374][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.28.44:387][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.01-12.28.44:506][483]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap11905AFF48EB8DA75A871C879BD8419E.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.12.01-12.28.44:558][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
-[2018.12.01-12.28.44:605][483]LogSavePackage: Moving 'D:/UE4 Projects/LD43/Saved/TopDownExampleMap_BuiltDataE74301574DE309E2C62A6CB08CF17C97.tmp' to 'D:/UE4 Projects/LD43/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
-[2018.12.01-12.30.28:743][459]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.30.32:692][915]SourceControl: fatal: E:/Epic Games/UE_4.20/Engine/Content: 'E:/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2018.12.01-12.30.32:863][915]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.30.48:525][915]LogSlate: Window 'Submit Files' being destroyed
-[2018.12.01-12.30.48:535][915]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.30.48:961][915]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.01-12.30.49:978][915]LogSourceControl: commit successful: [master 7205387] Initial Commit
-[2018.12.01-12.30.50:010][915]SourceControl: [master 7205387] Initial Commit
-[2018.12.01-12.30.50:010][915]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2018.12.01-12.30.50:016][915]SourceControl: Commited [master 7205387] Initial Commit.
+[2018.12.01-14.01.41:709][411]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.385 s
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: 
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: 
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: Stack: 
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: [Callstack] 0x00007ff9549499a6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: [Callstack] 0x00007ff9548ef8ca UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:722][411]LogOutputDevice: Error: [Callstack] 0x00007ff9415afa42 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9415b0795 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff94155d4c1 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95b06fe72 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95b034809 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95b0dc40e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95aee9ca1 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95ae80fd4 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956cf82c4 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956a5e84f UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956a32279 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956dfcb23 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956ddea20 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956d88524 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956de598a UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956a10a4b UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956a436ee UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956a6602d UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9548efefd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95491ac16 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95490132c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95496b347 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9549af64f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95494718f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff956a32fc8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95ae8206f UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95aec4c8e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9551c6c2e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9551b4bc8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95ae4694c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95aec697c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff95aeb9a36 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9784fdaa4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9784f0de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9785001eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff9784eca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff99c616d41 USER32.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff99c616713 USER32.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff978501746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff75fae5546 UE4Editor.exe!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff75faf596c UE4Editor.exe!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff75faf59ea UE4Editor.exe!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff75fb048da UE4Editor.exe!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff75fb0659a UE4Editor.exe!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff99c873034 KERNEL32.DLL!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: [Callstack] 0x00007ff99f121471 ntdll.dll!UnknownFunction []
+[2018.12.01-14.01.41:723][411]LogOutputDevice: Error: 
+[2018.12.01-14.01.41:731][411]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.01-14.01.45:447][411]LogStats:                    SendNewReport -  3.716 s
+[2018.12.01-14.01.45:447][411]LogStats:             FDebug::EnsureFailed -  5.124 s
+[2018.12.01-14.01.45:459][411]Cmd: TRANSACTION UNDO
+[2018.12.01-14.01.45:459][411]LogEditorTransaction: Undo Edit Decal Material
+[2018.12.01-14.01.54:000][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-14.01.54:005][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CameraPawn" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset" SILENT=true
+[2018.12.01-14.01.54:054][214]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/CameraPawnC8701FE742116245EDD4A6AAF11B87B5.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/CameraPawn.uasset'
+[2018.12.01-14.01.55:114][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.01.55:235][320]BlueprintLog: New page: Compile CameraPawn
+[2018.12.01-14.02.03:735][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.02.03:834][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-14.02.03:858][ 86]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.03:859][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-14.02.03:859][ 86]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 6:02:03 PM)
+[2018.12.01-14.02.03:859][ 86]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-14.02.03:867][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008398s)
+[2018.12.01-14.02.03:868][ 86]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-14.02.03:868][ 86]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2018.12.01-14.02.03:868][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009274s)
+[2018.12.01-14.02.03:937][ 86]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-14.02.03:965][ 86]LogInit: FAudioDevice initialized.
+[2018.12.01-14.02.03:998][ 86]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-14.02.03:999][ 86]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-16.02.03
+[2018.12.01-14.02.03:999][ 86]LogWorld: Bringing up level for play took: 0.000674
+[2018.12.01-14.02.04:012][ 86]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.023
+[2018.12.01-14.02.04:012][ 86]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.07:150][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.07:151][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-14.02.07:183][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-14.02.07:184][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.07:217][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-14.02.07:252][463]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.12.01-14.02.09:728][747]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-14.02.14:070][ 91]BlueprintLog: New page: Compile CameraPawn
+[2018.12.01-14.02.16:525][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.02.16:925][368]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.01-14.02.16:950][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.16:950][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.01-14.02.16:950][368]PIE: New page: PIE session: TopDownExampleMap (Dec 1, 2018, 6:02:16 PM)
+[2018.12.01-14.02.16:950][368]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.01-14.02.16:961][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011051s)
+[2018.12.01-14.02.16:961][368]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.01-14.02.16:962][368]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2018.12.01-14.02.16:962][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011745s)
+[2018.12.01-14.02.17:052][368]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-14.02.17:079][368]LogInit: FAudioDevice initialized.
+[2018.12.01-14.02.17:109][368]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.01-14.02.17:110][368]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.01-16.02.17
+[2018.12.01-14.02.17:110][368]LogWorld: Bringing up level for play took: 0.001126
+[2018.12.01-14.02.17:124][368]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.135
+[2018.12.01-14.02.17:124][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.23:909][180]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.23:909][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-14.02.23:946][180]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.01-14.02.23:947][180]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.01-14.02.23:979][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-14.02.24:024][182]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.12.01-14.02.29:426][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.TopDownCharacter_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.SKEL_TopDownCharacter_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.SKEL_TopDownCharacter_C:CameraToUse' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.SKEL_TopDownCharacter_C:CursorToWorld' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.SKEL_TopDownCharacter_C:Camera' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.SKEL_TopDownCharacter_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.SKEL_TopDownCharacter_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.TopDownCharacter_C:CameraToUse' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.TopDownCharacter_C:CursorToWorld' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.TopDownCharacter_C:Camera' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.TopDownCharacter_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:425][192]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownCharacter.TopDownCharacter_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.12.01-14.02.41:528][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Old/TopDownCharacter" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Old/TopDownCharacter.uasset" SILENT=true
+[2018.12.01-14.02.41:584][192]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownCharacterD26EC8E94EB5FB3D0CB55EB7E6BB3DD0.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Old/TopDownCharacter.uasset'
+[2018.12.01-14.02.41:776][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.12.01-14.02.41:788][192]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownCharacterDE8255B940A0585FE7E5638D4743EC3A.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.12.01-14.02.44:503][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.TopDownController_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:503][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.SKEL_TopDownController_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.SKEL_TopDownController_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.SKEL_TopDownController_C:MinClickDistance' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.SKEL_TopDownController_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.SKEL_TopDownController_C:MoveToHitLocation' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.SKEL_TopDownController_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.TopDownController_C:MinClickDistance' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.TopDownController_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.TopDownController_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.TopDownController_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:504][443]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Old/TopDownController.TopDownController_C:MoveToHitLocation' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownController.PackageMetaData'
+[2018.12.01-14.02.44:519][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Old/TopDownController" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Old/TopDownController.uasset" SILENT=true
+[2018.12.01-14.02.44:554][443]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownControllerB930508540BC6CAEB938E49860080714.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Old/TopDownController.uasset'
+[2018.12.01-14.02.44:709][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2018.12.01-14.02.44:722][443]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/TopDownController613DAB624845FB415AA6499B3FAA47BD.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/TopDownController.uasset'
