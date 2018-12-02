@@ -1,0 +1,804 @@
+﻿Log file open, 12/02/18 09:05:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LD43
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.236742
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.709s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4541578
+LogInit: Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 2600X Six-Core Processor           , GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Nov  6 2018 02:04:24
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal Engine 4/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.074s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2018.12.02-07.05.35:271][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2018.12.02-07.05.35:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:272][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:296][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2018.12.02-07.05.35:296][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2018.12.02-07.05.35:297][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2018.12.02-07.05.35:298][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.02-07.05.35:298][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.02-07.05.35:393][  0]LogHAL: Display: Platform has ~ 16 GB [17125740544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2018.12.02-07.05.35:393][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.02-07.05.35:393][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2018.12.02-07.05.35:393][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2018.12.02-07.05.35:394][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Scalability.ini]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2018.12.02-07.05.35:395][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2018.12.02-07.05.35:411][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2018.12.02-07.05.35:411][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE4_Projects/LD2018/Saved/Config/Windows/Engine.ini]
+[2018.12.02-07.05.35:411][  0]LogInit: Computer: DESKTOP-HO83NQ8
+[2018.12.02-07.05.35:411][  0]LogInit: User: Daniel
+[2018.12.02-07.05.35:411][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.12.02-07.05.35:411][  0]LogInit: High frequency timer resolution =3.515621 MHz
+[2018.12.02-07.05.35:412][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.02-07.05.35:412][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.02-07.05.35:412][  0]LogMemory: Process Physical Memory: 104.34 MB used, 104.34 MB peak
+[2018.12.02-07.05.35:412][  0]LogMemory: Process Virtual Memory: 98.33 MB used, 98.33 MB peak
+[2018.12.02-07.05.35:412][  0]LogMemory: Physical Memory: 4465.21 MB used,  11867.16 MB free, 16332.38 MB total
+[2018.12.02-07.05.35:412][  0]LogMemory: Virtual Memory: 4672.06 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2018.12.02-07.05.36:187][  0]LogInit: Using OS detected language (en-US).
+[2018.12.02-07.05.36:187][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.02-07.05.36:221][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.02-07.05.37:676][  0]LogStreaming: Display: Took  1.490s to InitEngineTextLocalization.
+[2018.12.02-07.05.37:676][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.02-07.05.38:092][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.02-07.05.38:092][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.02-07.05.40:787][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.02-07.05.40:787][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.02-07.05.40:852][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.12.02-07.05.40:852][  0]LogD3D11RHI:       8080/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.02-07.05.40:854][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.02-07.05.40:854][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.02-07.05.40:854][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.02-07.05.40:861][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.02-07.05.40:861][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.02-07.05.40:861][  0]LogWindows: EnumDisplayDevices:
+[2018.12.02-07.05.40:861][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.12.02-07.05.40:861][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.12.02-07.05.40:861][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.12.02-07.05.40:861][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.12.02-07.05.40:862][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.02-07.05.40:862][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.12.02-07.05.40:862][  0]LogD3D11RHI:   Driver Version: 417.01 (internal:25.21.14.1701, unified:417.01)
+[2018.12.02-07.05.40:862][  0]LogD3D11RHI:      Driver Date: 11-15-2018
+[2018.12.02-07.05.40:862][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.12.02-07.05.40:914][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.02-07.05.40:953][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.02-07.05.41:742][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.02-07.05.41:805][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.02-07.05.41:838][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.02-07.05.41:877][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.02-07.05.41:939][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.02-07.05.41:980][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.02-07.05.42:013][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.02-07.05.42:049][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.02-07.05.42:082][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-07.05.42:253][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.02-07.05.42:422][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.02-07.05.42:422][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.02-07.05.42:478][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.02-07.05.42:478][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.02-07.05.42:515][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.02-07.05.42:541][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.02-07.05.42:568][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.02-07.05.42:609][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.02-07.05.42:708][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.02-07.05.42:708][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.02-07.05.42:708][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.02-07.05.43:452][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (../../../../../UE4_Projects/LD2018/Intermediate/Shaders/WorkingDirectory/8988/).
+[2018.12.02-07.05.43:452][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daniel/AppData/Local/Temp/UnrealShaderWorkingDir/15EB911B4E7EEC3F560491B29049E821/'.
+[2018.12.02-07.05.43:454][  0]LogXGEController: Cleaning working directory: C:/Users/Daniel/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.02-07.05.43:454][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.02-07.05.43:455][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.02-07.05.43:455][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.02-07.05.46:715][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.02-07.05.46:841][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2018.12.02-07.05.46:841][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Daniel/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2018.12.02-07.05.46:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4_Projects/LD2018/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.02-07.05.46:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.02-07.05.46:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE4_Projects/LD2018/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.02-07.05.46:841][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.02-07.05.46:904][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.02-07.05.46:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.02-07.05.46:904][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2018.12.02-07.05.46:917][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daniel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.02-07.05.46:917][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.02-07.05.46:917][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.02-07.05.46:937][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.02-07.05.46:947][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.02-07.05.47:005][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.02-07.05.47:510][  0]LogAssetRegistry: FAssetRegistry took 0.0406 seconds to start up
+[2018.12.02-07.05.47:850][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.02-07.05.50:056][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.02-07.05.50:574][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.02-07.05.50:574][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.02-07.05.50:627][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.02-07.05.50:627][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.02-07.05.50:886][  0]LogNetVersion: LD43 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1178865739)
+[2018.12.02-07.05.53:717][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.187385 seconds
+[2018.12.02-07.05.53:727][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2018.12.02-07.05.53:727][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2018.12.02-07.05.53:727][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.02-07.06.02:763][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.02-07.06.02:854][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.02-07.06.04:544][  0]SourceControl: Source control is disabled
+[2018.12.02-07.06.06:472][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.02-07.06.06:789][  0]LogOcInput: OculusInput pre-init called
+[2018.12.02-07.06.07:340][  0]LogEngine: Initializing Engine...
+[2018.12.02-07.06.07:341][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.02-07.06.07:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.02-07.06.07:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.02-07.06.07:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.02-07.06.07:343][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.02-07.06.08:298][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.02-07.06.08:345][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.02-07.06.08:367][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.02-07.06.08:403][  0]LogInit: FAudioDevice initialized.
+[2018.12.02-07.06.08:404][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.02-07.06.08:491][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2018.12.02-07.06.08:506][  0]LogInit: Texture streaming: Enabled
+[2018.12.02-07.06.08:621][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.02-07.06.08:665][  0]LogInit: Transaction tracking system initialized
+[2018.12.02-07.06.08:833][  0]BlueprintLog: New page: Editor Load
+[2018.12.02-07.06.09:600][  0]LocalizationService: Localization service is disabled
+[2018.12.02-07.06.12:520][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Content/' took 0.03s
+[2018.12.02-07.06.12:520][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.02-07.06.12:520][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.02-07.06.12:521][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.02-07.06.12:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.02-07.06.12:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.02-07.06.12:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.02-07.06.12:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.02-07.06.15:227][  0]Cmd: MAP LOAD FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.02-07.06.15:228][  0]LightingResults: New page: Lighting Build
+[2018.12.02-07.06.15:231][  0]MapCheck: New page: Map Check
+[2018.12.02-07.06.15:231][  0]LightingResults: New page: Lighting Build
+[2018.12.02-07.06.16:466][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.02-07.06.16:516][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.02-07.06.16:555][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.02-07.06.16:555][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
+[2018.12.02-07.06.16:555][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.329
+[2018.12.02-07.06.16:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.02-07.06.16:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.02-07.06.16:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.02-07.06.16:831][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.02-07.06.16:870][  0]LogCollectionManager: Loaded 0 collections in 0.002350 seconds
+[2018.12.02-07.06.16:886][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Saved/Collections/' took 0.01s
+[2018.12.02-07.06.16:886][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Content/Developers/Daniel/Collections/' took 0.00s
+[2018.12.02-07.06.16:886][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Projects/LD2018/Content/Collections/' took 0.00s
+[2018.12.02-07.06.16:886][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.02-07.06.16:894][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2651 classes and 620 folders.
+[2018.12.02-07.06.16:899][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.02-07.06.17:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:159][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:202][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:411][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:444][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:507][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:597][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:665][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:728][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:744][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.17:800][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.02-07.06.18:674][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.02-07.06.18:707][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.12.02-07.06.18:773][  0]LogSlate: Took 0.020857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.02-07.06.18:802][  0]LogSlate: Took 0.025450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.02-07.06.18:825][  0]LogSlate: Took 0.014419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.02-07.06.19:117][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2018.12.02-07.06.19:315][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.02-07.06.19:315][  0]LogLoad: (Engine Initialization) Total time: 66.01 seconds
+[2018.12.02-07.06.19:315][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.02-07.06.19:399][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.02-07.06.19:592][  3]LogAssetRegistry: Asset discovery search completed in 32.1042 seconds
+[2018.12.02-07.06.19:593][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.02-07.06.19:593][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.12.02-07.06.59:596][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-07.07.11:544][528]LogSlate: Took 0.021209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.02-07.07.11:553][528]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP
+[2018.12.02-07.07.12:486][528]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
+[2018.12.02-07.07.14:091][528]LogSlate: Took 0.013570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.02-07.07.14:299][529]LogSlate: Took 0.006663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.02-07.07.34:544][489]BlueprintLog: New page: Collapse to Function
+[2018.12.02-07.10.00:456][731]BlueprintLog: New page: Compile Tile_BP
+[2018.12.02-07.10.00:562][731]LogBlueprint: Error: [Compiler Tile_BP] In use pin  Self 2  no longer exists on node  Update Tile Ui Text . Please refresh node or break links to remove pin.
+[2018.12.02-07.10.00:898][731]LogBlueprint: Warning: [Compiler Tile_BP] [0287.60] Compile of Tile_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 440 ms] (/Game/TopDownBP/Blueprints/Tile_BP.Tile_BP)
+[2018.12.02-07.10.08:233][438]BlueprintLog: New page: Compile Tile_BP
+[2018.12.02-07.10.09:245][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Tile_BP" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Tile_BP.uasset" SILENT=true
+[2018.12.02-07.10.09:652][502]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/Tile_BP85BB4F49477E81213CEEFBA67A339D26.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Tile_BP.uasset'
+[2018.12.02-07.10.13:292][812]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.02-07.10.13:316][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.02-07.10.13:316][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.02-07.10.13:316][812]PIE: New page: PIE session: TopDownExampleMap (Dec 2, 2018, 11:10:13 AM)
+[2018.12.02-07.10.13:329][812]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.12.02-07.10.13:342][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012851s)
+[2018.12.02-07.10.13:342][812]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.12.02-07.10.13:342][812]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2018.12.02-07.10.13:342][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.013691s)
+[2018.12.02-07.10.13:390][812]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.02-07.10.13:418][812]LogInit: FAudioDevice initialized.
+[2018.12.02-07.10.13:463][812]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.12.02-07.10.13:466][812]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.12.02-09.10.13
+[2018.12.02-07.10.13:466][812]LogWorld: Bringing up level for play took: 0.001512
+[2018.12.02-07.10.13:491][812]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2018.12.02-07.10.13:492][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUI:0121
+[2018.12.02-07.10.13:492][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile UI Graph:  UpdateTileUI Node:  Set Visibility
+[2018.12.02-07.10.13:492][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:000E
+[2018.12.02-07.10.13:492][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:492][812]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:0023
+[2018.12.02-07.10.13:492][812]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:492][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetTypeText:008D
+[2018.12.02-07.10.13:492][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:492][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetTypeText:00A2
+[2018.12.02-07.10.13:493][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:493][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetLevelText:0055
+[2018.12.02-07.10.13:493][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:493][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetLevelText:006A
+[2018.12.02-07.10.13:493][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:493][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetUnitsText:01C3
+[2018.12.02-07.10.13:493][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:493][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetUnitsText:01D8
+[2018.12.02-07.10.13:493][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:493][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetHealthText:0065
+[2018.12.02-07.10.13:493][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:493][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetHealthText:007A
+[2018.12.02-07.10.13:494][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:494][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetNatalityRateText:00C3
+[2018.12.02-07.10.13:494][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:494][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetNatalityRateText:00D8
+[2018.12.02-07.10.13:494][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:497][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUI:0121
+[2018.12.02-07.10.13:497][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile UI Graph:  UpdateTileUI Node:  Set Visibility
+[2018.12.02-07.10.13:497][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:000E
+[2018.12.02-07.10.13:497][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:497][812]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:0023
+[2018.12.02-07.10.13:497][812]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:497][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetTypeText:008D
+[2018.12.02-07.10.13:497][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:497][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetTypeText:00A2
+[2018.12.02-07.10.13:497][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:497][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetLevelText:0055
+[2018.12.02-07.10.13:498][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:498][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetLevelText:006A
+[2018.12.02-07.10.13:498][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:498][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetUnitsText:01C3
+[2018.12.02-07.10.13:498][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:498][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetUnitsText:01D8
+[2018.12.02-07.10.13:498][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:498][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetHealthText:0065
+[2018.12.02-07.10.13:498][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:498][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetHealthText:007A
+[2018.12.02-07.10.13:498][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:498][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetNatalityRateText:00C3
+[2018.12.02-07.10.13:499][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:499][812]LogScript: Warning: Accessed None
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetNatalityRateText:00D8
+[2018.12.02-07.10.13:499][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:499][812]LogBlueprintUserMessages: [GameManager_BP_2] Turn ended - Next Turn
+[2018.12.02-07.10.13:499][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUI:0121
+[2018.12.02-07.10.13:499][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile UI Graph:  UpdateTileUI Node:  Set Visibility
+[2018.12.02-07.10.13:499][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:000E
+[2018.12.02-07.10.13:499][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:499][812]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:0023
+[2018.12.02-07.10.13:499][812]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:499][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetTypeText:008D
+[2018.12.02-07.10.13:499][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:500][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:501][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUI:0121
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile UI Graph:  UpdateTileUI Node:  Set Visibility
+[2018.12.02-07.10.13:501][812]LogScript: Warning: Accessed None trying to read property SelectWidget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:000E
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectWidget". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:501][812]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:UpdateTileUiText:0023
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Tile_BP Function:  Update Tile Ui Text Graph:  UpdateTileUiText Node:  Set MyTile
+[2018.12.02-07.10.13:501][812]LogScript: Warning: Accessed None trying to read property Widget
+	Tile_BP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Tile_BP_2
+	Function /Game/TopDownBP/Blueprints/Tile_BP.Tile_BP_C:SetTypeText:008D
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Type Text Graph:  SetTypeText Node:  SetText (Text)
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:501][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Level Text Graph:  SetLevelText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Units Text Graph:  SetUnitsText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Health Text Graph:  SetHealthText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Widget". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Tile_BP Function:  Set Natality Rate Text Graph:  SetNatalityRateText Node:  SetText (Text)
+[2018.12.02-07.10.13:502][812]LogBlueprintUserMessages: [GameManager_BP_2] Turn ended - Next Turn
+[2018.12.02-07.10.13:505][812]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.952
+[2018.12.02-07.10.13:505][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.02-07.10.13:806][834]LogBlueprintUserMessages: [Tile_2] ENTERED
+[2018.12.02-07.10.14:335][890]LogBlueprintUserMessages: [Tile_2] Clicked
+[2018.12.02-07.10.14:356][892]LogBlueprintUserMessages: [Tile_2] EXITED
+[2018.12.02-07.10.15:756][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.02-07.10.15:757][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.02-07.10.15:799][ 39]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.02-07.10.15:799][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.12.02-07.10.15:839][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.02-07.10.15:846][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-07.10.15:940][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.12.02-07.10.17:625][170]LogSlate: Window 'Message Log' being destroyed
+[2018.12.02-07.10.17:629][170]LogSlate: Window 'Message Log' being destroyed
+[2018.12.02-07.10.19:640][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-07.10.30:401][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-07.10.30:406][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Tile_BP" FILE="../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Tile_BP.uasset" SILENT=true
+[2018.12.02-07.10.30:567][478]LogSavePackage: Moving '../../../../../UE4_Projects/LD2018/Saved/Tile_BP546AA4804AED1FB2B64CC08BFBAC6A6B.tmp' to '../../../../../UE4_Projects/LD2018/Content/TopDownBP/Blueprints/Tile_BP.uasset'
+[2018.12.02-07.10.36:639][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-07.10.36:842][ 44]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/SelectedTile_WB.SelectedTile_WB
+[2018.12.02-07.10.41:489][414]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/GameManager_BP.GameManager_BP
+[2018.12.02-07.11.02:725][496]LogUObjectArray: Warning: Invalid object index 7077985
+[2018.12.02-07.11.02:725][496]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2018.12.02-07.11.03:831][496]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.106 s
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: 
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1154]
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: Stack: 
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: [Callstack] 0x00007ff9498881e4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.02-07.11.03:831][496]LogOutputDevice: Error: [Callstack] 0x00007ff9498980ae UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff946cebcba UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff945b2776a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff945ae0877 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff94b297c74 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff94b4e4393 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff94b2f2d7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff94b2c8a70 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff94b2bb263 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff9721cdc66 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff9721c0de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff9721d01eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff9721bca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff99c616d41 USER32.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff99c616713 USER32.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff9721d1746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff6a1055546 UE4Editor.exe!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff6a106596c UE4Editor.exe!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff6a10659ea UE4Editor.exe!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff6a10748da UE4Editor.exe!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff6a107659a UE4Editor.exe!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff99c873034 KERNEL32.DLL!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: [Callstack] 0x00007ff99f121471 ntdll.dll!UnknownFunction []
+[2018.12.02-07.11.03:832][496]LogOutputDevice: Error: 
+[2018.12.02-07.11.03:839][496]LogStats:                SubmitErrorReport -  0.000 s
